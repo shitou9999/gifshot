@@ -4,7 +4,7 @@ package com.gp.本地线程;
  * @author 高攀
  * 
  *
- */
+ */ 
 public class ThreadLocalTest {
 
 	public static void main(String[] args) {
