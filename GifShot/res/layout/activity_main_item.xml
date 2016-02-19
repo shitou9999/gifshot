@@ -1,0 +1,32 @@
+
+<!-- 主页视频列表item -->
+<!-- id 均以 main_item_wegitname_function 命名 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/solid_main_deliver"
+    android:layout_marginTop="2dp"
+    android:padding="1dp" >
+
+    <!-- 头像 -->
+
+    <ImageView
+        android:id="@+id/main_item_imageview_thum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/main_item_textview_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|top"
+        android:layout_alignParentBottom="true"
+        android:singleLine="true"
+        android:background="#FFFFFF"
+        android:text="1小时"
+        android:textColor="@drawable/detail_master" />
+
+</RelativeLayout>

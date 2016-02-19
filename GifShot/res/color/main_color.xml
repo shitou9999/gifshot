@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 这里设置一组点击状态颜色 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#B4B4B4" android:state_pressed="false" />
+</selector>

@@ -1,0 +1,27 @@
+
+<!-- 详情页面 -->
+<!-- id 均以 detail_wegitname_function 命名 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" 
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/image_thumbnail"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/laba" />
+
+    <ImageView
+        android:id="@+id/video_thumbnail"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/totop"
+        />
+
+</LinearLayout>

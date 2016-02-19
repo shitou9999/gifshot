@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2B47"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/left_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <com.gp.gifshot.myoverride.CircleImageView
+            android:id="@+id/left_image_id1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/test2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="Fk_道木人"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+    <!-- 分割线 -->
+
+    <LinearLayout
+        android:id="@+id/detail_deliver"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/left_top"
+        android:background="#F6F6F6"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/left_medim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_deliver"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <com.gp.gifshot.myoverride.CircleImageView
+            android:id="@+id/left_image_id2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/test" />
+
+        <com.gp.gifshot.myoverride.CircleImageView
+            android:id="@+id/left_image_id3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/test3" />
+
+        <com.gp.gifshot.myoverride.CircleImageView
+            android:id="@+id/left_image_id4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/test2"
+             />
+
+        <com.gp.gifshot.myoverride.CircleImageView
+            android:id="@+id/left_image_id5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/test3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/left_medim"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:textColor="#FFFFFF"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="查找"
+            android:textColor="#FFFFFF"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="设置"
+            android:textColor="#FFFFFF"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="本地"
+            android:textColor="#FFFFFF"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+</RelativeLayout>

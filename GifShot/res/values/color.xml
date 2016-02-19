@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 播放次数 -->
+    <drawable name="detail_play">#B4B4B4</drawable>
+    <!-- 楼主 -->
+    <drawable name="detail_master">#7B7B7B</drawable>
+    <drawable name="detail_master_link">#166CAA</drawable>
+    <!-- 滑动 -->
+    <!-- 1、背景 -->
+    <drawable name="comment_more">#FF6574</drawable>
+    <drawable name="comment_copy">#E3E3E3</drawable>
+	<!-- 2、字体 -->
+    <drawable name="comment_more_text">#FFFFFF</drawable>
+	
+    <!-- tab -->
+    <color name="bg_easy_sliding_tabs_pressed">#ff5CC1CB</color>
+</resources>

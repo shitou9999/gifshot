@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 导航栏 -->
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:background="#F2A670" >
+
+        <ImageView
+            android:id="@+id/top_itv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/back_n" />
+
+        <TextView
+            android:id="@+id/detail_text_love"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="FK_盗墓人"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/persion_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/persion_top"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/background" />
+
+            <com.gp.gifshot.myoverride.CircleImageView
+                android:id="@+id/persion_head1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/test" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/persion_top"
+                android:background="#FFFFFF"
+                android:orientation="vertical" >
+
+                <!-- 个人资料 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp" >
+
+                    <com.gp.gifshot.myoverride.CircleImageView
+                        android:id="@+id/persion_head"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/test" >
+                    </com.gp.gifshot.myoverride.CircleImageView>
+
+                    <TextView
+                        android:id="@+id/persion_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/solid_radius_1"
+                        android:padding="5dp"
+                        android:text="编辑个人资料"
+                        android:textColor="#FFFFFF" />
+
+                    <LinearLayout
+                        android:id="@+id/persion_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:orientation="horizontal"
+                         >
+
+                        <TextView
+                            android:id="@+id/persion_fensi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="2粉丝" />
+
+                        <TextView
+                            android:id="@+id/persion_deliver"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="|" />
+
+                        <TextView
+                            android:id="@+id/persion_guanzhu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="27关注" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!-- 个人描述 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/solid_main_deliver"
+                        android:padding="10dp"
+                        android:text="IT..." />
+                </RelativeLayout>
+
+                <!-- item -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/persion_show_zuopin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/solid_main_deliver"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="0作品" />
+
+                    <TextView
+                        android:id="@+id/persion_show_xihuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/solid_main_deliver"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="45喜欢" />
+                </LinearLayout>
+
+                <!-- grideview -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <!--
+	                    Activity里放了好几个GridView，导致页面很高，所以需要用SrollView进行滑动，
+				                    这个时候问题出来了。首先是编译器给出了警告：The vertically scrolling ScrollView should not contain another vertically scrolling widget (GridView)，
+				                    意思就是在ScrollView中不能嵌套具有滑动特性的View，系统无法判断该哪个控件获取滚动焦点，会导致GridView无法滑动，高度显示也有问题。
+				                    其实按照android的标准，是不允许这样做的，但是为了布局方便，不得不采用这种抄捷径的方式来实现。
+						既然知道问题了，那么肯定就有相应的解决方案，第一反应肯定就是自定义GridView了，重写GridView，让其失去滑动的特性。                    -->
+
+                    <com.gp.gifshot.myoverride.MyNoScrollGridView
+                        android:id="@+id/persion_grideview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </com.gp.gifshot.myoverride.MyNoScrollGridView>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

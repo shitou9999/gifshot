@@ -1,0 +1,182 @@
+
+<!-- 详情页面 -->
+<!-- id 均以 detail_wegitname_function 命名 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/both"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <!-- 导航栏 -->
+
+    <include
+        android:id="@+id/detail_top"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        layout="@layout/head_orange_detail" />
+
+    <!-- 视频区 -->
+
+    <LinearLayout
+        android:id="@+id/detail_zone_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_top"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <com.gp.gifshot.myoverride.MyVideoView
+            android:id="@+id/detail_video"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <ProgressBar
+            android:id="@+id/detail_process"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:max="100" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/solid_radius_2"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp" >
+
+            <!-- 播放次数 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:text="100次"
+                android:textColor="#B4B4B4" />
+            <!-- 发布时间 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="4小时"
+                android:textColor="@drawable/detail_play" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 楼主区 -->
+
+    <RelativeLayout
+        android:id="@+id/detail_zone_master"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_zone_video"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/image_laba"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/laba" />
+        <!-- 昵称 -->
+
+        <TextView
+            android:id="@+id/detail_master_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/image_laba"
+            android:text="楼主昵称"
+            android:textColor="@drawable/detail_master_link" />
+        <!-- 标题 -->
+
+        <TextView
+            android:id="@+id/detail_text_master_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@id/detail_master_nickname"
+            android:text="：中国电商15年发展历程！0000000000000000000000000\n\nasdasd"
+            android:textColor="@drawable/detail_master" />
+        <!-- 喜欢和评论数量显示 -->
+
+        <ImageView
+            android:id="@+id/image_love_num"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/detail_text_master_title"
+            android:src="@drawable/lovenum" />
+        <!-- 喜欢数量 -->
+
+        <TextView
+            android:id="@+id/detail_text_master_love_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_text_master_title"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/image_love_num"
+            android:text="197人喜欢"
+            android:textColor="@drawable/detail_master" />
+
+        <ImageView
+            android:id="@+id/image_comment_num"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/image_love_num"
+            android:src="@drawable/commentnum" />
+        <!-- 评论数量 -->
+
+        <TextView
+            android:id="@+id/detail_text_master_comment_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_text_master_love_num"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/image_comment_num"
+            android:text="65条评论"
+            android:textColor="@drawable/detail_master" />
+    </RelativeLayout>
+
+    <!-- 分割线 -->
+
+    <LinearLayout
+        android:id="@+id/detail_deliver"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/detail_zone_master"
+        android:background="#F6F6F6"
+        android:orientation="horizontal" />
+    <!-- 评论区 -->
+
+    <com.gp.gifshot.plugs.sdlv.SlideAndDragListView
+        android:id="@+id/detail_listview_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_deliver"
+        android:divider="#DADADA" >
+    </com.gp.gifshot.plugs.sdlv.SlideAndDragListView>
+
+    <ImageView
+        android:id="@+id/image_id_to_top"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:onClick="toTop"
+        android:src="@drawable/totop"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edit_reply"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:hint="\@回复"
+        android:visibility="gone" />
+
+</RelativeLayout>
