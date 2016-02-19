@@ -1,0 +1,2184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>岗仁波齐转山.kmz</name>
+	<Style id="sn_X2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/X.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/X-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-diamond2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_trail3">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/trail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon18">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_X00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_X2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_X1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_noicon35">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon301</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin22001">
+		<LineStyle>
+			<color>997faaff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-diamond5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_noicon30">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_camera8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_noicon13">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_campground5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_polygon61">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_campground9">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars030">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars1030</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_trail1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/trail.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_campground1">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_forbidden">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/forbidden.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_camera">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_noicon0001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon410</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_campground2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_noicon89">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_noicon03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon05</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_campground1">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon24">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-diamond15">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/forbidden.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_noicon60">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_noicon23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_noicon13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon72</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon1030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_police40">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-stars1030">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_campground">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_noicon17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon04</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-square">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_noicon34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon89</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon34</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_noicon19">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon1030">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_campground11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon521">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_campground4">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_campground4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_noicon29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_water32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_water15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_water73</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-square1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_noicon41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon521</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon72</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_lodging01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_lodging9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_lodging05</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_camera">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_campground">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_noicon72">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_noicon26">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-diamond7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_police4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_police20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_camera20">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-stars41">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_campground7">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_campground3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_campground00">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_camera">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_campground11">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_camera2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_water15">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/water.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_noicon51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_polygon152">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_polygon450</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_polygon61</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_campground9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond20">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_lodging9">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon33">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon13">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_X1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/X.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/X-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_noicon100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon82</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-diamond5">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-square">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_track">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_campground4">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-diamond6">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_noicon25">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_noicon12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_noicon72">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_noicon50">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon04">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon22">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_polygon112">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_noicon82">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_campground1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon98">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_police20">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon8">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon27">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon81">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon12">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_polygon450">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-diamond0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_noicon30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon105</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-diamond3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_trail1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_trail1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_trail3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_polygon71">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-diamond10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_police00">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-circle0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_noicon9">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_campground5">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_campground8">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_noicon220">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon98</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_campground2">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_campground0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon14">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_noicon05">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon29">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_noicon11">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon72">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_police4">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/police.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_track">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_track</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_track</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_water73">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/water.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-square1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-square1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-square0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_polygon60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_polygon112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_polygon71</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon301">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_forbidden">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_forbidden</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_forbidden</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_noicon5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_noicon8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon410">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_forbidden">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/forbidden.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_noicon34">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_police2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_police4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_police40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-square1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_noicon105">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_noicon15">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_campground2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon40">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_noicon29">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-diamond1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_lodging05">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff8c8c8c</color>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon80">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-diamond2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_campground8">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_campground3">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_campground6">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_campground8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_campground6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_campground8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_campground3">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/campground.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon53">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-diamond6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_noicon9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon81</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-diamond7">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/forbidden.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_noicon16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_noicon27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon6">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_track">
+		<IconStyle>
+			<scale>0.88</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_red-diamond15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>岗仁波齐转山</name>
+		<open>1</open>
+		<Placemark>
+			<name>楚果寺</name>
+			<open>1</open>
+			<styleUrl>#msn_forbidden</styleUrl>
+			<Point>
+				<coordinates>81.44322692643746,30.56148244227099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>古楚寺</name>
+			<open>1</open>
+			<styleUrl>#msn_forbidden</styleUrl>
+			<Point>
+				<coordinates>81.37762488274949,30.65773541344737,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>吉悟寺</name>
+			<open>1</open>
+			<styleUrl>#msn_forbidden</styleUrl>
+			<Point>
+				<coordinates>81.36695,30.76553333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>川北宾馆</name>
+			<open>1</open>
+			<styleUrl>#msn_lodging01</styleUrl>
+			<Point>
+				<coordinates>81.28789999999999,30.97571666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>岗仁波齐转山</name>
+			<styleUrl>#sn_ylw-pushpin22001</styleUrl>
+			<LineString>
+				<coordinates>
+					81.28737029437232,30.97744519883535,4691 81.287617,30.9774,4690 81.28785000000001,30.977383,4690 81.288583,30.97726700000001,4691 81.288783,30.9772,4690 81.2895,30.976917,4686 81.289783,30.9768,4684 81.291633,30.975217,4676 81.291783,30.97501700000001,4675 81.292283,30.974533,4671 81.292433,30.974383,4671 81.292817,30.97405,4672 81.2930375334939,30.97383546830334,4673 81.29339624142598,30.97349540956967,4672 81.2939054432722,30.97324453402637,4671 81.29423861448987,30.97307845523869,4671 81.29501166943439,30.97264671093943,4668 81.29554573144898,30.9723361452238,4668 81.29590953467198,30.97217121419624,4668 81.29635368571474,30.97195630096357,4669 81.29720753217842,30.97162815578358,4663 81.29736935612196,30.97142327819307,4661 81.29786270355294,30.97109426056753,4661 81.29809153018951,30.97099654115885,4661 81.29835614127642,30.97072225833031,4661 81.29859207749864,30.9706263293838,4659 81.29882972769185,30.97027935273142,4658 81.29912170616677,30.97011639190248,4658 81.29953751608929,30.96973756162397,4656 81.29994220060121,30.96958436258924,4656 81.30002338894208,30.96948927260252,4656 81.3001834702483,30.9690824667422,4652 81.30039369858136,30.96877135731425,4653 81.30063530934832,30.96851796839856,4653 81.30090708235211,30.96817531741043,4652 81.3012594248362,30.9678261639887,4651 81.30163320752618,30.96756851036666,4651 81.3020268521464,30.96722274902369,4651 81.30245798704284,30.96689580737981,4650 81.30276999291566,30.96676750135731,4651 81.3031498966843,30.96659730029084,4651 81.30335156800818,30.96654185717634,4652 81.30355936971496,30.96638758631309,4651 81.30381391177212,30.96607494044206,4647 81.30422056186856,30.96584968929777,4647 81.30479134089519,30.96566365847106,4649 81.30536287000723,30.96529819033304,4649 81.30567225432615,30.96509771202156,4651 81.30579103192304,30.9650790740176,4653 81.30593297451911,30.96497114721869,4655 81.30628669745425,30.9648646601096,4658 81.30647120977825,30.96485836708418,4658 81.30735,30.96445,4660 81.30765,30.964283,4663 81.30793300000001,30.96415,4664 81.308133,30.96405,4666 81.3086,30.9639,4668 81.30985,30.963383,4667 81.31011700000001,30.96325,4666 81.310433,30.96315,4664 81.311933,30.962567,4658 81.31218300000001,30.9625,4658 81.31265000000001,30.962283,4660 81.312933,30.96215,4661 81.31359999999999,30.9618,4659 81.3139,30.961717,4659 81.31440000000001,30.961467,4661 81.31478300000001,30.961317,4661 81.315167,30.961233,4662 81.316017,30.961017,4662 81.3167,30.961,4665 81.3171,30.960933,4666 81.31746699999999,30.96091699999999,4669 81.3179,30.960933,4671 81.318517,30.961017,4676 81.318783,30.96105,4678 81.31908300000001,30.961133,4681 81.319333,30.9612,4681 81.31953300000001,30.9613,4681 81.319683,30.961583,4682 81.319783,30.96166699999999,4683 81.319883,30.961817,4680 81.319883,30.962033,4679 81.320133,30.9621,4683 81.32033300000001,30.962317,4684 81.32075,30.962417,4686 81.3209,30.962533,4686 81.321083,30.962617,4687 81.32135,30.96255,4688 81.32176699999999,30.96265,4693 81.321983,30.962733,4694 81.322317,30.962717,4696 81.32265,30.9628,4699 81.322883,30.962933,4699 81.32315,30.963067,4701 81.32333300000001,30.96315,4703 81.323533,30.963367,4704 81.32365,30.96356700000001,4705 81.32380000000001,30.963683,4706 81.323883,30.963783,4709 81.32384999999999,30.96401699999999,4706 81.32386700000001,30.964267,4706 81.32391699999999,30.9646,4704 81.324117,30.96485,4704 81.324217,30.965017,4702 81.324583,30.965283,4700 81.32485,30.965467,4699 81.32485,30.965717,4697 81.32511700000001,30.96605,4701 81.325367,30.966317,4704 81.32565,30.966533,4706 81.3259,30.966683,4707 81.3261,30.966817,4709 81.3263,30.966933,4711 81.326583,30.9672,4714 81.327,30.96765,4724 81.32726700000001,30.96795,4727 81.327467,30.968317,4733 81.32755,30.968467,4735 81.32765000000001,30.968667,4738 81.32776699999999,30.968783,4738 81.32785,30.968933,4743 81.327917,30.969133,4749 81.327883,30.9693,4752 81.327883,30.969433,4753 81.327967,30.969583,4753 81.32813299999999,30.96973300000001,4753 81.328233,30.969883,4754 81.32835,30.96995,4751 81.32845,30.97015,4749 81.32851700000001,30.97035,4741 81.328683,30.970517,4738 81.32888300000001,30.970767,4733 81.329283,30.97095,4732 81.32955,30.9713,4730 81.329617,30.971433,4730 81.32995,30.97198300000001,4732 81.33045,30.972567,4734 81.33069999999999,30.972867,4731 81.330783,30.972983,4731 81.33116699999999,30.9734,4730 81.33165,30.97395,4731 81.331917,30.974267,4734 81.33201699999999,30.974417,4735 81.3323,30.974667,4738 81.33244999999999,30.974983,4743 81.332533,30.97515,4746 81.332767,30.9754,4749 81.332967,30.975617,4751 81.333117,30.975783,4751 81.33328299999999,30.976017,4751 81.3335,30.976283,4754 81.33368299999999,30.976467,4755 81.334017,30.97675,4753 81.334283,30.976933,4754 81.3346,30.977317,4750 81.334783,30.977583,4745 81.33485,30.977783,4744 81.33505,30.977983,4742 81.3353,30.978117,4740 81.33541700000001,30.9783,4742 81.33555,30.978483,4742 81.33584999999999,30.978783,4741 81.336017,30.978983,4741 81.3361,30.97915,4740 81.33626700000001,30.979383,4740 81.3364,30.979533,4740 81.33665000000001,30.979783,4741 81.336933,30.980017,4740 81.33705000000001,30.9802,4740 81.337233,30.98035,4740 81.33735,30.980483,4742 81.33756700000001,30.980733,4742 81.337833,30.9809,4742 81.338033,30.981033,4743 81.3385,30.981283,4747 81.338917,30.981567,4746 81.33923299999999,30.981767,4747 81.339333,30.981917,4748 81.339483,30.981983,4747 81.3396,30.982117,4746 81.339833,30.98235,4745 81.34008300000001,30.982467,4745 81.340267,30.982633,4745 81.34051700000001,30.98285,4745 81.340833,30.983183,4742 81.34093300000001,30.983383,4742 81.341183,30.9835,4741 81.341533,30.983717,4742 81.341683,30.983883,4743 81.34181700000001,30.983967,4742 81.342033,30.98415,4744 81.342333,30.9844,4746 81.34258300000001,30.98456699999999,4747 81.34271699999999,30.984733,4746 81.342917,30.9849,4747 81.34351700000001,30.98545,4747 81.343633,30.9856,4747 81.34388300000001,30.985733,4746 81.34465,30.986033,4743 81.345083,30.986117,4747 81.34558300000001,30.986317,4749 81.346017,30.98655,4750 81.346333,30.986817,4752 81.34715,30.987317,4760 81.34784999999999,30.98755,4767 81.347933,30.98775,4768 81.34786699999999,30.987983,4769 81.34795,30.98815,4768 81.347983,30.988333,4765 81.348017,30.9885,4764 81.34823299999999,30.98885,4764 81.348467,30.9891,4766 81.348617,30.989317,4767 81.34866700000001,30.9895,4769 81.348883,30.989667,4773 81.34925,30.99005,4777 81.34950000000001,30.9902,4777 81.34965,30.99045,4776 81.34985,30.9908,4775 81.34990000000001,30.991017,4773 81.350117,30.991133,4772 81.350267,30.991317,4771 81.3505,30.991617,4772 81.350567,30.99185,4773 81.350683,30.992,4775 81.3509,30.992233,4777 81.351167,30.992533,4780 81.3515,30.992783,4781 81.35169999999999,30.992983,4782 81.35169999999999,30.99315,4783 81.351817,30.99335,4780 81.352133,30.99335,4783 81.3523,30.99338300000001,4783 81.35245000000001,30.993633,4785 81.352767,30.9938,4785 81.35305,30.9938,4785 81.35315,30.994,4785 81.353317,30.99415,4786 81.3535,30.994267,4787 81.35375000000001,30.994467,4787 81.354033,30.994583,4788 81.354283,30.994683,4789 81.354467,30.99481700000001,4788 81.354867,30.995017,4787 81.354983,30.995217,4787 81.355233,30.995367,4786 81.35545000000001,30.995517,4785 81.35585,30.995817,4784 81.356217,30.996067,4785 81.3565,30.996283,4787 81.35673300000001,30.996483,4789 81.357,30.99665,4791 81.357117,30.996883,4792 81.357333,30.997,4794 81.35760000000001,30.997283,4797 81.357833,30.997483,4797 81.35809999999999,30.9977,4796 81.3584,30.997933,4795 81.35851700000001,30.99805,4794 81.358733,30.99835,4795 81.35905,30.998567,4797 81.35928300000001,30.998667,4798 81.359467,30.998683,4798 81.359717,30.998883,4799 81.36,30.998967,4799 81.360333,30.999083,4802 81.36058300000001,30.999083,4803 81.361233,30.999367,4805 81.36150000000001,30.99941700000002,4805 81.361667,30.999617,4806 81.361767,30.99986699999999,4807 81.36190000000001,31.000017,4808 81.36201699999999,31.00015,4808 81.362233,31.0004,4809 81.36236700000001,31.000567,4810 81.362567,31.000783,4809 81.36281700000001,31.00098300000001,4806 81.36295,31.0011,4804 81.363083,31.00135,4804 81.36320000000001,31.001483,4806 81.363383,31.001717,4806 81.36365000000001,31.001783,4804 81.363883,31.001917,4807 81.36411699999999,31.002033,4808 81.36425,31.002133,4808 81.36451700000001,31.002267,4807 81.364783,31.002433,4809 81.365,31.002583,4812 81.365233,31.002733,4815 81.365483,31.002767,4815 81.365917,31.002983,4818 81.36618300000001,31.00315,4818 81.366517,31.003283,4819 81.366833,31.003433,4821 81.367183,31.003467,4820 81.367717,31.00365,4818 81.368133,31.003867,4818 81.368433,31.004167,4818 81.368683,31.004383,4818 81.368933,31.004567,4819 81.3697,31.00495,4820 81.369867,31.00505,4820 81.3703,31.00535,4822 81.37093299999999,31.00575,4824 81.371683,31.006083,4825 81.372083,31.00635,4824 81.372317,31.0065,4823 81.37263299999999,31.006733,4823 81.372883,31.006933,4823 81.373017,31.0071,4823 81.373267,31.007283,4824 81.373417,31.00745,4824 81.37356699999999,31.007617,4824 81.373767,31.00795,4824 81.37393299999999,31.0081,4825 81.374033,31.00825,4826 81.374267,31.008567,4828 81.374517,31.0088,4831 81.37476700000001,31.00925,4833 81.37485,31.0094,4833 81.375,31.00971699999999,4832 81.37516700000001,31.010083,4834 81.375417,31.01035,4834 81.37560000000001,31.010667,4836 81.375767,31.010883,4837 81.37611699999999,31.011533,4842 81.3762,31.01175,4845 81.376417,31.012133,4851 81.376633,31.0124,4855 81.376683,31.012517,4857 81.376867,31.01275,4864 81.37693299999999,31.012933,4867 81.376983,31.0131,4870 81.3771,31.013233,4872 81.377217,31.013467,4878 81.37725,31.0138,4884 81.37730000000001,31.013967,4886 81.37730000000001,31.014167,4889 81.37728300000001,31.014583,4896 81.37735000000001,31.014717,4897 81.377383,31.015,4900 81.37735000000001,31.0155,4897 81.37735000000001,31.016233,4898 81.377533,31.016383,4902 81.377517,31.01725,4902 81.3775,31.017617,4901 81.377483,31.017933,4904 81.377517,31.018117,4906 81.3776,31.0183,4908 81.377583,31.018517,4909 81.377667,31.018717,4911 81.37773300000001,31.018933,4912 81.37778299999999,31.019117,4915 81.377833,31.019383,4913 81.377917,31.019617,4910 81.37795,31.019833,4913 81.37785,31.020083,4919 81.377833,31.0203,4921 81.3777,31.020517,4922 81.377517,31.0209,4923 81.377483,31.021117,4924 81.37733299999999,31.021383,4924 81.377233,31.02191699999999,4923 81.37715,31.022117,4924 81.377117,31.0228,4925 81.377083,31.02305,4926 81.37705,31.023233,4926 81.376983,31.0237,4927 81.377017,31.0239,4926 81.37699799635679,31.02410541418765,4925 81.37706749998235,31.02428890656021,4924 81.377017,31.024417,4926 81.37696699999999,31.024733,4927 81.37696699999999,31.02495,4929 81.37691700000001,31.025183,4932 81.37693299999999,31.0254,4934 81.37696699999999,31.025617,4935 81.377,31.02606700000001,4941 81.37690000000001,31.02625,4941 81.37691700000001,31.026417,4940 81.37705,31.02665,4939 81.377117,31.0268,4939 81.377217,31.027217,4939 81.37731700000001,31.027417,4940 81.37725,31.02755,4940 81.37731700000001,31.027717,4940 81.37730000000001,31.027933,4942 81.37715,31.028183,4945 81.37675,31.0286,4950 81.376683,31.0288,4950 81.37656699999999,31.028983,4950 81.37645000000001,31.02923300000001,4950 81.376383,31.029467,4951 81.376317,31.029667,4952 81.37625,31.029967,4951 81.376133,31.030233,4952 81.375967,31.0305,4951 81.37603300000001,31.030717,4951 81.376267,31.0311,4951 81.3763,31.031267,4950 81.37645000000001,31.032033,4953 81.376633,31.032283,4955 81.37693299999999,31.032567,4957 81.376983,31.0328,4959 81.377033,31.03305,4961 81.376983,31.033283,4963 81.37690000000001,31.033917,4967 81.37683300000001,31.03411699999999,4969 81.376767,31.034383,4971 81.3768,31.034617,4971 81.37688300000001,31.03485,4975 81.37696699999999,31.035117,4977 81.377,31.035317,4977 81.377,31.03555,4978 81.376983,31.035783,4978 81.377067,31.036033,4980 81.377083,31.03625,4981 81.37715,31.03646699999999,4983 81.377217,31.03665,4984 81.37735000000001,31.037017,4986 81.37733299999999,31.03721699999999,4988 81.37731700000001,31.037383,4987 81.377233,31.0376,4989 81.3772,31.0379,4991 81.377133,31.038117,4994 81.377117,31.038317,4996 81.377083,31.03845,4997 81.37705,31.038617,5002 81.377117,31.038833,5003 81.377183,31.039183,5006 81.377183,31.039417,5006 81.377267,31.039633,5007 81.37745,31.03995,5008 81.377517,31.04045,5009 81.37755,31.040617,5009 81.377633,31.04085,5010 81.377667,31.041033,5011 81.3777,31.04115,5009 81.3777,31.041233,5013 81.37778299999999,31.0414,5017 81.37776700000001,31.04155,5018 81.37776700000001,31.041733,5020 81.37778299999999,31.042017,5024 81.37775000000001,31.042333,5028 81.37775000000001,31.042533,5030 81.37775000000001,31.0428,5028 81.37776700000001,31.04315,5028 81.377667,31.04355,5032 81.3776,31.04395,5034 81.377533,31.044133,5034 81.37755,31.04445,5034 81.377583,31.04465,5036 81.377533,31.044883,5037 81.377467,31.04505,5037 81.377433,31.045233,5039 81.37731700000001,31.0454,5039 81.377267,31.045617,5038 81.377167,31.045883,5039 81.37705,31.04675,5042 81.37683300000001,31.04745,5051 81.3767,31.047933,5053 81.376617,31.048367,5052 81.37656699999999,31.048517,5052 81.37656699999999,31.04866699999999,5051 81.376533,31.048983,5055 81.37648299999999,31.049183,5056 81.37646700000001,31.04945,5056 81.376383,31.0499,5059 81.376317,31.05053300000001,5063 81.37635,31.050717,5064 81.37656699999999,31.0509,5066 81.3767,31.05115,5067 81.376783,31.05145,5070 81.37685000000001,31.051833,5074 81.37696699999999,31.052067,5076 81.3771,31.052267,5077 81.377017,31.052467,5079 81.377033,31.052783,5084 81.377017,31.052917,5085 81.376983,31.053083,5086 81.37691700000001,31.053283,5089 81.376983,31.053483,5089 81.377067,31.053617,5090 81.3771,31.053967,5095 81.377133,31.054133,5095 81.377117,31.054233,5073 81.3772,31.054433,5091 81.377217,31.054633,5092 81.37728300000001,31.054783,5091 81.37730000000001,31.05513300000001,5086 81.377383,31.055283,5091 81.37735000000001,31.055617,5094 81.377433,31.055967,5096 81.377483,31.056167,5096 81.377483,31.05635,5097 81.37755,31.056583,5097 81.37755,31.05675,5097 81.37765,31.056933,5099 81.37768300000001,31.057083,5100 81.3777,31.0573,5102 81.3777,31.0575,5104 81.37775000000001,31.057667,5105 81.37778299999999,31.057833,5105 81.37785,31.058017,5106 81.377883,31.058217,5108 81.377983,31.058483,5110 81.37806493881442,31.05861510198658,5113 81.37823299999999,31.0585,5112 81.3783,31.058967,5117 81.3784,31.059133,5117 81.378433,31.0594,5118 81.378517,31.059583,5119 81.37866699999999,31.059833,5121 81.378767,31.060067,5123 81.378833,31.060217,5125 81.37906700000001,31.0605,5131 81.37911699999999,31.0606,5130 81.379183,31.060667,5139 81.379333,31.060883,5139 81.379417,31.061033,5139 81.37949999999999,31.061283,5140 81.379617,31.061517,5141 81.379717,31.061883,5144 81.37975,31.062133,5146 81.37983300000001,31.06235,5146 81.37988300000001,31.0625,5146 81.37991700000001,31.062717,5147 81.37994999999999,31.063083,5148 81.380067,31.063367,5147 81.380083,31.06355,5149 81.3802,31.063833,5150 81.38030000000001,31.0642,5151 81.380467,31.064667,5152 81.3807,31.065383,5156 81.38068300000001,31.06565,5156 81.3807,31.065933,5156 81.38075000000001,31.066117,5156 81.380933,31.0664,5155 81.3813,31.066983,5155 81.381433,31.067217,5155 81.381517,31.06745,5156 81.38158300000001,31.06765,5157 81.38164999999999,31.067933,5158 81.381683,31.0681,5157 81.381767,31.068433,5157 81.381917,31.068917,5158 81.38209999999999,31.06925,5159 81.382233,31.069467,5158 81.382333,31.0696,5158 81.38243300000001,31.069817,5160 81.38255,31.06996699999999,5159 81.382733,31.07025,5161 81.38285000000001,31.0705,5164 81.38305,31.070867,5165 81.3831,31.071033,5166 81.38334999999999,31.0714,5168 81.383533,31.0717,5170 81.38376700000001,31.071983,5173 81.38421700000001,31.07275,5182 81.38426699999999,31.07285,5181 81.384433,31.07315,5184 81.38453300000001,31.073333,5190 81.38464999999999,31.07355,5191 81.384767,31.073767,5194 81.38485,31.073883,5197 81.38495,31.07415,5200 81.38505000000001,31.074267,5201 81.38505000000001,31.0744,5202 81.38511699999999,31.07456699999999,5204 81.385333,31.074967,5201 81.38549999999999,31.07525,5203 81.385683,31.075533,5204 81.385783,31.075767,5208 81.38585000000001,31.075967,5209 81.38596699999999,31.07615,5211 81.386183,31.076617,5213 81.38628300000001,31.07675,5213 81.38628300000001,31.076917,5211 81.38630000000001,31.077083,5212 81.38636700000001,31.077383,5211 81.386533,31.077583,5214 81.386633,31.077733,5218 81.38675000000001,31.077917,5219 81.38681699999999,31.078067,5220 81.38685,31.078317,5222 81.386883,31.0785,5223 81.38685,31.0787,5225 81.38676700000001,31.078833,5225 81.38676700000001,31.079067,5229 81.38670000000001,31.079383,5232 81.38668300000001,31.07955,5235 81.38655,31.079667,5238 81.386567,31.079817,5239 81.386533,31.079967,5242 81.38645,31.080183,5246.999999999999 81.386383,31.0804,5252 81.38633299999999,31.080617,5255 81.386233,31.080767,5259 81.386183,31.08095,5263 81.386267,31.081183,5266 81.386267,31.081383,5271 81.38630000000001,31.0816,5274 81.38634999999999,31.08178300000001,5277 81.386433,31.08195,5279 81.386467,31.082117,5283 81.38645,31.08235,5294 81.38633299999999,31.08246700000001,5303 81.386267,31.082633,5311 81.386083,31.08275,5319 81.38605,31.082833,5317 81.38596699999999,31.0829,5321 81.385767,31.08291699999999,5336 81.38565,31.082767,5342 81.38548299999999,31.08285,5350 81.385317,31.082817,5357.999999999999 81.385267,31.082733,5388 81.38509999999999,31.08275,5368 81.384933,31.0828,5370 81.3848,31.082933,5373.999999999999 81.384567,31.083017,5376 81.384417,31.083117,5382 81.384317,31.083333,5390 81.38418299999999,31.083383,5392 81.384083,31.08355,5395 81.38405,31.083683,5398 81.383917,31.083833,5401 81.38385,31.084017,5405 81.38373300000001,31.084217,5409 81.383617,31.084417,5414 81.383533,31.084483,5414 81.383433,31.0845,5416 81.383267,31.084567,5416 81.383133,31.084683,5418 81.382983,31.084783,5422 81.382767,31.084967,5426 81.382617,31.085083,5429 81.3824,31.085167,5432 81.38225,31.0851,5435 81.38203300000001,31.085217,5437 81.381917,31.085367,5440 81.3818,31.08545,5440 81.38164999999999,31.08556700000001,5441 81.3813,31.085667,5447 81.381083,31.08585,5449 81.380967,31.086083,5451 81.3809,31.08625,5453 81.380867,31.086417,5457 81.380433,31.0865,5468.999999999999 81.380233,31.086633,5475 81.380117,31.086783,5479 81.37994999999999,31.086867,5482 81.37983300000001,31.086983,5487 81.379683,31.0871,5491 81.379583,31.087283,5493 81.37946700000001,31.087433,5497 81.379183,31.087667,5500.999999999999 81.37906700000001,31.08775,5507 81.378867,31.087783,5509 81.37866699999999,31.08795,5511 81.37826699999999,31.088217,5517 81.378017,31.088233,5520 81.3779,31.0884,5523 81.377717,31.088517,5525 81.377483,31.0887,5529 81.37725,31.088733,5530 81.37688300000001,31.0889,5532 81.376633,31.089183,5535 81.37648299999999,31.0893,5537 81.376383,31.089483,5538 81.37625,31.089667,5540 81.37611699999999,31.089833,5542 81.37603300000001,31.090017,5543 81.375933,31.09015,5546 81.37585,31.0903,5542 81.3758,31.090383,5550 81.375867,31.090583,5551 81.37575,31.09075,5555 81.37561700000001,31.090817,5555 81.37558300000001,31.091067,5560 81.375467,31.091233,5562 81.37535,31.0914,5564 81.37516700000001,31.091583,5567 81.375017,31.091717,5567 81.3749,31.09185,5571 81.37479999999999,31.09195,5581 81.374583,31.091867,5588 81.37445,31.091933,5594 81.37428300000001,31.091883,5595.999999999999 81.374167,31.092,5601 81.37405,31.092183,5606 81.37393299999999,31.092283,5611 81.37388300000001,31.092467,5611.999999999999 81.3738,31.092683,5611.999999999999 81.37375,31.09286699999999,5613 81.37356699999999,31.093117,5609 81.37348299999999,31.09323300000001,5607 81.373233,31.093367,5606 81.372917,31.093517,5605 81.3727,31.09365,5605 81.372467,31.0937,5604 81.37213300000001,31.0938,5606 81.371933,31.0939,5610 81.3717,31.09395,5611 81.37130000000001,31.094017,5611 81.37093299999999,31.094017,5615 81.370683,31.094083,5621 81.37051700000001,31.094117,5619 81.370333,31.094117,5625 81.370167,31.094183,5634 81.370183,31.09435,5634 81.370283,31.094467,5638 81.3704,31.094533,5642 81.37043300000001,31.09466700000001,5647 81.37051700000001,31.094783,5650 81.37043300000001,31.094933,5652 81.37035,31.0951,5655 81.370233,31.095233,5654 81.37008299999999,31.095367,5656 81.36995,31.095533,5654 81.369767,31.095717,5653 81.36961700000001,31.09586699999999,5650 81.369483,31.096,5647 81.369317,31.096083,5644 81.369117,31.096033,5640 81.369,31.096133,5636 81.36885,31.09625,5634 81.36873300000001,31.09635,5633 81.36872829140349,31.09651688150923,5634 81.3686,31.09655,5632 81.36838299999999,31.096667,5629 81.36825,31.096867,5626 81.36788300000001,31.096967,5622 81.367717,31.0972,5622 81.36748299999999,31.097283,5620 81.367217,31.097333,5617 81.36703300000001,31.09745,5615 81.36665000000001,31.097467,5611 81.3665,31.0976,5611 81.366367,31.097733,5609 81.36620000000001,31.097867,5605 81.36605,31.097933,5602 81.36579999999999,31.097967,5595.999999999999 81.365433,31.098067,5593 81.3651,31.098317,5586 81.364867,31.098383,5579 81.364717,31.098483,5575 81.36456699999999,31.0986,5573 81.364417,31.09875,5570 81.364267,31.09885,5566 81.36415,31.098883,5559 81.363933,31.099,5550 81.363833,31.09915,5543 81.36369999999999,31.09925,5542 81.363517,31.09933300000001,5539 81.36358300000001,31.099517,5535 81.363167,31.099833,5526 81.363,31.099833,5523 81.36273300000001,31.09985,5515 81.362583,31.099967,5511 81.36238299999999,31.100117,5505 81.362183,31.100133,5499 81.36201699999999,31.100317,5490 81.36193299999999,31.10046699999999,5487 81.361867,31.100617,5484 81.36185,31.100833,5480 81.361683,31.100917,5475 81.36150000000001,31.100983,5472 81.361283,31.101,5472 81.36108299999999,31.101067,5472 81.360783,31.101117,5471 81.36055,31.1011,5470 81.36026699999999,31.10105,5468.999999999999 81.359967,31.101,5468 81.359717,31.101067,5467 81.359483,31.101017,5465 81.35925,31.100933,5462 81.35891700000001,31.100867,5459 81.358667,31.100817,5457 81.35843300000001,31.100733,5456 81.358333,31.100683,5457 81.35769999999999,31.100483,5453 81.3574,31.100383,5451 81.35678299999999,31.100217,5448 81.356533,31.1001,5447 81.35628300000001,31.10001700000001,5446 81.356,31.0999,5444 81.355833,31.099733,5441 81.355667,31.09965,5439 81.355467,31.09955,5436 81.355133,31.099367,5434 81.354833,31.09935,5434 81.354467,31.099183,5432 81.35420000000001,31.0991,5433 81.35386699999999,31.09905,5433 81.353633,31.098983,5434 81.35345,31.0989,5433 81.35328300000001,31.098817,5432 81.352317,31.0984,5431 81.352,31.098317,5431 81.351483,31.09825,5427 81.35120000000001,31.098083,5420 81.34845,31.097117,5402 81.34821700000001,31.09705,5400 81.348017,31.097,5398 81.34778300000001,31.096883,5396 81.347517,31.09678299999999,5391 81.3473,31.096733,5383 81.347167,31.096733,5378 81.347083,31.0966,5372 81.34695000000001,31.096467,5365 81.346817,31.0964,5366 81.346583,31.0965,5359 81.346383,31.096533,5354 81.346133,31.09645,5348 81.345917,31.096517,5342 81.345567,31.0966,5339 81.344767,31.096767,5332 81.3445,31.09675,5329 81.344283,31.09678299999999,5326 81.344083,31.096817,5324 81.34385,31.09685,5322 81.343667,31.0968,5319 81.343467,31.09685,5317 81.343267,31.096917,5315 81.343017,31.097133,5310 81.342883,31.097267,5308 81.34275,31.097383,5306 81.336333,31.098717,5306 81.33555,31.099,5250 81.33456700000001,31.099383,5238 81.33403300000001,31.09955,5232 81.333817,31.099533,5228 81.333483,31.099683,5223 81.333133,31.099867,5219 81.3329,31.10008300000001,5217 81.332633,31.1003,5214 81.33225,31.100533,5208 81.331917,31.100833,5201 81.33161699999999,31.101083,5196 81.33150000000001,31.101233,5193 81.331433,31.101033,5188 81.331467,31.100833,5184 81.33154999999999,31.10055,5180 81.330933,31.1007,5166 81.33076699999999,31.1008,5163 81.3306,31.1009,5158 81.3305,31.10075,5155 81.33035,31.100717,5152 81.33025000000001,31.100983,5150 81.329983,31.101017,5146 81.32986699999999,31.100933,5143 81.329633,31.1009,5138 81.329217,31.10095,5133 81.32859999999999,31.100983,5125 81.32825,31.10095,5123 81.328,31.10095,5121 81.32776699999999,31.100717,5119 81.327533,31.100733,5116 81.32725000000001,31.100833,5111 81.32705,31.1006,5111 81.3269,31.100483,5109 81.32655,31.100533,5110 81.3263,31.1008,5110 81.3261,31.100917,5109 81.3259,31.1012,5107 81.32545,31.101417,5106 81.325217,31.101533,5105 81.32470000000001,31.101733,5101 81.32445,31.10185,5102 81.32415,31.101883,5104 81.32384999999999,31.101883,5105 81.323633,31.101933,5105 81.32343299999999,31.101933,5103 81.32305,31.101933,5101 81.32265,31.101917,5101 81.322467,31.101867,5098 81.322267,31.101933,5097 81.32210000000001,31.101883,5096 81.3219,31.101933,5094 81.321367,31.10196699999999,5093 81.32129999999999,31.102167,5088 81.32126700000001,31.10235,5088 81.32075,31.102233,5084 81.320767,31.102033,5085 81.3205,31.1021,5084 81.320317,31.102017,5086 81.320267,31.1021,5079 81.31999999999999,31.101983,5078 81.319817,31.10195,5076 81.31961699999999,31.10185,5074 81.319433,31.101867,5073 81.319217,31.10185,5073 81.318733,31.1018,5073 81.318567,31.10175,5073 81.31826700000001,31.10175,5073 81.318033,31.101767,5074 81.317683,31.101817,5071 81.31743299999999,31.101783,5068 81.317217,31.1018,5066 81.31693300000001,31.101833,5064 81.3164,31.101917,5062 81.315917,31.101917,5058 81.31566700000001,31.101817,5054 81.31518300000001,31.101833,5050 81.314733,31.101767,5046 81.314483,31.101667,5042 81.313917,31.101667,5038 81.31358299999999,31.10155,5034 81.31314999999999,31.10145,5030 81.312867,31.101433,5029 81.31265000000001,31.101467,5026 81.31245,31.10135,5022 81.31218300000001,31.101267,5019 81.31183299999999,31.10115,5017 81.311617,31.101033,5017 81.31141700000001,31.101,5017 81.310867,31.100967,5015 81.31055000000001,31.1009,5013 81.309983,31.100867,5011 81.30971700000001,31.100883,5010 81.309433,31.10085,5008 81.309133,31.100833,5007 81.308633,31.100683,5004 81.30841700000001,31.100683,5001 81.308167,31.10065,4999 81.307683,31.10055,4999 81.30721699999999,31.100567,4997 81.307017,31.100583,4997 81.306783,31.100583,4996 81.3065,31.1006,4996 81.30615,31.10055,4995 81.305483,31.100533,4994 81.30506699999999,31.10046699999999,4993 81.30456700000001,31.10035,4993 81.30365000000001,31.10005,4988 81.302717,31.09971699999999,4990 81.30241700000001,31.099617,4989 81.301717,31.09945,4989 81.301417,31.099317,4988 81.30045,31.099083,4987 81.30005,31.09896699999999,4986 81.299533,31.098833,4984 81.298833,31.09858300000001,4982 81.29861699999999,31.0985,4981 81.298333,31.098433,4981 81.29813300000001,31.098367,4981 81.2979,31.098417,4980 81.2976,31.098267,4979 81.2972,31.09805,4976 81.29686700000001,31.09783300000001,4973 81.29635,31.097517,4970 81.2961,31.097317,4968 81.295833,31.097133,4968 81.29561699999999,31.096967,4967 81.295433,31.096633,4965 81.295283,31.096417,4964 81.29519999999999,31.09633300000001,4964 81.294983,31.095967,4966 81.2945,31.09511699999999,4964 81.294333,31.0949,4964 81.2942,31.094783,4964 81.293967,31.09445,4964 81.293817,31.094317,4964 81.29365,31.094133,4964 81.293533,31.093933,4964 81.293283,31.093467,4964 81.29303299999999,31.093317,4964 81.29245,31.092683,4964 81.292317,31.09245,4964 81.29218299999999,31.092333,4964 81.291867,31.091883,4935 81.291817,31.0917,4932 81.291633,31.091517,4932 81.2914,31.09135,4932 81.291083,31.091267,4932 81.290583,31.09098300000001,4932 81.290167,31.09075,4932 81.28995000000001,31.090567,4932 81.289717,31.090333,4932 81.28956700000001,31.090083,4932 81.28925,31.08975,4932 81.28916700000001,31.08955,4932 81.2889,31.08925,4932 81.28876700000001,31.088983,4932 81.28855,31.08875,4932 81.28845,31.088533,4932 81.28834999999999,31.0883,4932 81.28805,31.087967,4932 81.28789999999999,31.087683,4933 81.287767,31.08735,4932 81.28751699999999,31.08655,4928 81.28741700000001,31.086133,4924 81.2873,31.085733,4913 81.2872,31.085317,4905 81.287183,31.084917,4901 81.287133,31.084567,4898 81.28706699999999,31.084267,4896 81.28693300000001,31.0839,4889 81.286917,31.083683,4891 81.2868,31.0835,4893 81.28658299999999,31.083517,4894 81.2863,31.08325,4890 81.286267,31.083083,4889 81.286067,31.08291699999999,4891 81.2859,31.0827,4888 81.28581699999999,31.08246700000001,4889 81.28568300000001,31.082217,4888 81.28536699999999,31.081667,4888 81.28526700000001,31.081517,4887 81.285133,31.081317,4886 81.284933,31.08096700000001,4883 81.28485000000001,31.080733,4884 81.28465,31.080333,4882 81.2846,31.080117,4882 81.28455,31.0798,4881 81.28449999999999,31.0792,4879 81.28446700000001,31.078983,4876 81.28445000000001,31.07875,4876 81.28438300000001,31.078183,4875 81.284333,31.077967,4873 81.28435,31.077817,4869 81.284283,31.077517,4869 81.2842,31.0773,4868 81.28415,31.077133,4869 81.28401700000001,31.076917,4874 81.283867,31.076767,4876 81.28375,31.076583,4877 81.28364999999999,31.076417,4878 81.283417,31.076217,4874 81.28316700000001,31.07605,4872 81.28305,31.075867,4866 81.2828,31.07555,4866 81.28271700000001,31.075283,4864 81.28268300000001,31.07505,4861 81.28268300000001,31.0748,4859 81.282633,31.074583,4858 81.2824,31.0743,4861 81.28228300000001,31.074083,4860 81.282167,31.0737,4859 81.28223300000001,31.07345,4857 81.28234999999999,31.072883,4856 81.282433,31.07265,4853 81.282417,31.072433,4850 81.282533,31.0722,4844 81.282517,31.071917,4843 81.2825,31.071733,4841 81.282533,31.071383,4839 81.282517,31.071183,4838 81.282467,31.07101700000001,4838 81.282467,31.07071699999999,4831 81.2826,31.070483,4819 81.282633,31.069833,4823 81.282583,31.069667,4820 81.282433,31.069067,4821 81.2824,31.068867,4822 81.282133,31.0686,4819 81.282017,31.068417,4821 81.281967,31.0682,4822 81.28183300000001,31.0679,4824 81.28183300000001,31.067167,4822 81.28186700000001,31.066883,4819 81.28189999999999,31.066617,4817 81.28191700000001,31.0664,4815 81.28191700000001,31.06615,4816 81.28188299999999,31.065917,4815 81.28186700000001,31.065667,4817 81.281933,31.06536699999999,4814 81.281933,31.065217,4814 81.28191700000001,31.064883,4812 81.28191700000001,31.064633,4811 81.28191700000001,31.0644,4814 81.28189999999999,31.064067,4812 81.281983,31.063783,4804 81.281983,31.06355,4804 81.281967,31.063367,4806 81.281983,31.06315,4807 81.282083,31.062517,4811 81.282067,31.062233,4814 81.282033,31.0621,4816 81.282,31.061883,4818 81.28186700000001,31.061533,4819 81.28175,31.061283,4819 81.2816,31.061,4820 81.281533,31.0608,4820 81.281533,31.0606,4819 81.28143300000001,31.06041700000002,4822 81.281367,31.060217,4823 81.281217,31.0599,4823 81.281183,31.059633,4821 81.281167,31.059467,4821 81.2812,31.059283,4822 81.281183,31.059067,4824 81.281183,31.05885,4825 81.281117,31.05855,4819 81.28115,31.058283,4821 81.281183,31.058117,4815 81.281233,31.057883,4811 81.28125,31.057683,4807 81.28125,31.05745,4803 81.2813,31.057233,4800 81.28115,31.056883,4795 81.28104999999999,31.056583,4796 81.28093300000001,31.0563,4799 81.28085,31.056167,4800 81.280717,31.055783,4802 81.28060000000001,31.055533,4802 81.28066699999999,31.055333,4803 81.2807,31.05515,4802 81.280683,31.05495,4804 81.280717,31.05475,4806 81.280683,31.054533,4805 81.2807,31.054333,4803 81.280733,31.053933,4803 81.2808,31.05363300000001,4803 81.280883,31.0532,4799 81.28085,31.052783,4797 81.280717,31.052533,4798 81.28055000000001,31.052383,4795 81.280333,31.05215,4794 81.280067,31.051833,4789 81.279967,31.051483,4781 81.279983,31.05121700000001,4776 81.28,31.051033,4778 81.27995,31.050783,4779 81.28005,31.05046700000001,4779 81.28019999999999,31.050283,4784 81.280233,31.050067,4783 81.280067,31.049633,4785 81.28,31.049383,4786 81.2799,31.0492,4783 81.27968300000001,31.048733,4780 81.279517,31.048467,4786 81.2794,31.04828300000001,4789 81.27931700000001,31.048083,4789 81.2792,31.047867,4786 81.279067,31.04765,4780 81.27883300000001,31.047333,4779 81.278733,31.0469,4785 81.278583,31.04661700000001,4786 81.27848299999999,31.046333,4790 81.27835,31.046133,4791 81.278267,31.04595,4789 81.277967,31.045633,4785 81.277767,31.045433,4785 81.27758300000001,31.045233,4785 81.27745,31.045,4789 81.277333,31.04481699999999,4789 81.2773,31.044667,4788 81.27716700000001,31.044333,4787 81.27718299999999,31.044133,4788 81.27713300000001,31.0439,4789 81.2771,31.0436,4790 81.2771,31.0431,4785 81.277067,31.043,4802 81.276983,31.042667,4791 81.276917,31.04205,4780 81.276833,31.041833,4776 81.27673299999999,31.041533,4774 81.276567,31.041217,4771 81.27630000000001,31.040717,4769 81.27596699999999,31.040483,4770 81.275767,31.040183,4768 81.275633,31.03995,4770 81.275567,31.039733,4769 81.27555,31.03946699999999,4768 81.27543300000001,31.039183,4768 81.275333,31.0389,4766 81.275233,31.038517,4764 81.27498300000001,31.03796699999999,4763 81.27495,31.037717,4763 81.274683,31.0373,4762 81.274517,31.036817,4761 81.27435,31.036533,4759 81.274233,31.036267,4757 81.273967,31.03575,4756 81.273783,31.035533,4756 81.273667,31.0353,4754 81.27334999999999,31.03485,4753 81.27323300000001,31.0347,4752 81.273,31.034317,4751 81.27235,31.033317,4750 81.272217,31.033133,4751 81.271917,31.0328,4750 81.27153300000001,31.032467,4750 81.271367,31.0323,4750 81.27115000000001,31.0321,4750 81.27073300000001,31.031767,4748 81.270583,31.031533,4747 81.270433,31.031317,4747 81.27023300000001,31.0311,4746 81.270067,31.03095,4747 81.2697,31.03066700000001,4747 81.269533,31.030517,4747 81.26938300000001,31.03035,4748 81.26925,31.030417,4748 81.269333,31.030283,4748 81.269183,31.030183,4749 81.26915,31.030083,4748 81.2691,31.029817,4750 81.268933,31.029617,4750 81.26875,31.029333,4748 81.268367,31.0287,4747 81.26815000000001,31.028383,4746 81.26776700000001,31.028,4745 81.267617,31.027817,4745 81.26745,31.0276,4745 81.26728300000001,31.027383,4744 81.2671,31.027233,4744 81.26649999999999,31.0267,4743 81.266333,31.026567,4744 81.26615,31.0264,4743 81.265883,31.026183,4742 81.265733,31.02606700000001,4742 81.265467,31.02576699999999,4741 81.2653,31.0255,4740 81.26516700000001,31.025233,4741 81.264667,31.0243,4738 81.264383,31.024033,4735 81.264167,31.023783,4734 81.26396699999999,31.023517,4736 81.26385000000001,31.0233,4735 81.263583,31.022967,4732 81.26346700000001,31.022767,4735 81.263317,31.02266699999999,4735 81.263167,31.022583,4735 81.26303299999999,31.022367,4736 81.2629,31.022167,4736 81.262867,31.021933,4736 81.26264999999999,31.021717,4736 81.2623,31.021333,4736 81.26218299999999,31.021117,4736 81.26215000000001,31.020933,4735 81.262083,31.020733,4735 81.261833,31.020267,4735 81.26170000000001,31.019917,4734 81.261717,31.019733,4735 81.261583,31.019517,4736 81.261483,31.019367,4737 81.26133299999999,31.019067,4736 81.2612,31.018933,4736 81.261033,31.0187,4737 81.26091700000001,31.01846700000001,4738 81.260817,31.018217,4740 81.2607,31.01805,4741 81.260533,31.017817,4742 81.2602,31.017333,4746 81.26005000000001,31.017067,4746 81.25995,31.016783,4748 81.259883,31.016583,4749 81.25975,31.01635,4748 81.259517,31.016,4749 81.259683,31.015933,4751 81.2599,31.01595,4753 81.26015,31.015883,4755 81.26045000000001,31.01585,4754 81.260783,31.015617,4754 81.2607,31.01555,4753 81.260533,31.0154,4753 81.26035,31.01506699999999,4753 81.26046700000001,31.0149,4750 81.260683,31.014867,4748 81.26091700000001,31.014533,4747 81.26085000000001,31.0144,4746 81.260767,31.014117,4747 81.260633,31.0139,4745 81.26035,31.01386700000001,4745 81.26005000000001,31.013833,4744 81.259817,31.0137,4743 81.259733,31.013467,4742 81.259717,31.013133,4740 81.25964999999999,31.01275,4741 81.25963299999999,31.012533,4741 81.25961700000001,31.0123,4741 81.259433,31.0122,4741 81.259317,31.01215,4740 81.25926699999999,31.01195,4741 81.25913300000001,31.011283,4742 81.2589,31.009833,4738 81.258933,31.00965,4738 81.25895,31.0094,4738 81.25885,31.009217,4738 81.25881699999999,31.00896699999999,4738 81.258867,31.00875,4737 81.258867,31.0084,4737 81.258667,31.00805,4735 81.258667,31.00785,4736 81.258617,31.007633,4735 81.25855,31.00701700000001,4733 81.258517,31.00675,4732 81.258467,31.00635,4731 81.258433,31.00585,4730 81.2584,31.0056,4728 81.25841699999999,31.00535,4727 81.2584,31.004767,4728 81.25833299999999,31.004417,4728 81.258233,31.00365,4730 81.258183,31.003433,4731 81.258133,31.003217,4733 81.25796699999999,31.0029,4734 81.25805,31.002833,4729 81.2581,31.002633,4729 81.2581,31.00241700000001,4731 81.257983,31.00215,4731 81.25791700000001,31.001967,4731 81.25783300000001,31.001717,4731 81.257717,31.00136699999999,4732 81.257633,31.000867,4735 81.257567,31.000667,4736 81.2576,31.00045,4738 81.25751700000001,31.0002,4739 81.257583,30.9999,4740 81.25749999999999,30.999667,4742 81.25745000000001,30.999333,4743 81.25745000000001,30.999067,4744 81.257417,30.998783,4745 81.257367,30.998567,4748 81.25745000000001,30.99826699999999,4750 81.25749999999999,30.99815,4750 81.25749999999999,30.998067,4755 81.2576,30.9979,4757 81.257617,30.997717,4759 81.2576,30.997383,4766 81.257567,30.997217,4769 81.257633,30.997017,4772 81.257683,30.99685,4775 81.25765,30.996633,4779 81.257767,30.996433,4782 81.25786700000001,30.9962,4784 81.25796699999999,30.995983,4786 81.258017,30.995783,4788 81.258017,30.995433,4788 81.257983,30.99535,4789 81.258117,30.99505,4787 81.2582,30.99488300000001,4786 81.25828300000001,30.994583,4786 81.258267,30.994367,4789 81.25831700000001,30.994183,4791 81.25831700000001,30.9939,4792 81.25836700000001,30.9937,4793 81.25865,30.9937,4789 81.2589,30.993817,4787 81.25915000000001,30.993783,4784 81.25958300000001,30.99335,4780 81.259683,30.9932,4780 81.25975,30.99305,4779 81.259867,30.992917,4777 81.26009999999999,30.992667,4775 81.260233,30.99245,4774 81.26043300000001,30.99225,4772 81.260633,30.991917,4768 81.26083300000001,30.991733,4765 81.261,30.99165,4764 81.261033,30.99145,4763 81.26115,30.991217,4760 81.26130000000001,30.99105,4758 81.261467,30.99085,4756 81.261617,30.990617,4753 81.261717,30.9904,4750 81.262,30.990167,4747 81.262233,30.990017,4745 81.262433,30.9899,4745 81.26266699999999,30.98975,4743 81.262967,30.9896,4743 81.263217,30.989483,4741 81.263767,30.9891,4734 81.263983,30.988883,4730 81.264167,30.98878300000001,4730 81.2644,30.988617,4727 81.264617,30.988467,4724 81.26516700000001,30.988133,4719 81.265367,30.98796700000001,4719 81.26558300000001,30.987817,4719 81.265833,30.987717,4717 81.26601700000001,30.987567,4716 81.2664,30.98735,4715 81.266667,30.9872,4715 81.26730000000001,30.986883,4711 81.26755,30.986767,4712 81.267917,30.986583,4713 81.26815000000001,30.986483,4714 81.26861700000001,30.986117,4712 81.26904999999999,30.985733,4709 81.26935,30.98555,4709 81.269717,30.985333,4709 81.26994999999999,30.985133,4708 81.27031700000001,30.984883,4703 81.271233,30.984283,4699 81.271467,30.984083,4699 81.27175,30.9839,4699 81.27215,30.983517,4698 81.27243300000001,30.983317,4697 81.27265,30.98315,4696 81.27286700000001,30.983,4695 81.273083,30.982817,4696 81.27325,30.98285,4695 81.273267,30.98268300000001,4695 81.273417,30.982483,4694 81.273583,30.982367,4693 81.273667,30.982267,4693 81.273867,30.982083,4692 81.274233,30.9819,4689 81.274433,30.98185,4688 81.274917,30.98165,4689 81.275167,30.981483,4691 81.27535,30.981417,4690 81.2756,30.98135,4690 81.275817,30.9811,4692 81.276117,30.980933,4692 81.27631700000001,30.980883,4691 81.276483,30.9808,4691 81.27718299999999,30.980533,4690 81.277517,30.980467,4689 81.277733,30.980317,4691 81.277967,30.980317,4690 81.2782,30.980267,4691 81.27840000000001,30.98015,4688 81.278717,30.980067,4685 81.27889999999999,30.979983,4684 81.2794,30.979817,4683 81.280017,30.9796,4683 81.280817,30.9793,4685 81.28138300000001,30.97915,4685 81.281633,30.979033,4686 81.28186700000001,30.978967,4687 81.28321699999999,30.97865,4686 81.283467,30.9784,4686 81.2837,30.9782,4688 81.28395,30.978067,4688 81.284533,30.9779,4690 81.285917,30.97765,4693 81.2863,30.97755,4694 81.286767,30.97755,4695 81.28728413159932,30.97745829930294,4687 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>江扎寺</name>
+			<styleUrl>#msn_red-diamond15</styleUrl>
+			<Point>
+				<coordinates>81.29751666666667,31.00671666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塔钦镇</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon100</styleUrl>
+			<Point>
+				<coordinates>81.28752931272061,30.97830854231103,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>宗堆村</name>
+			<LookAt>
+				<longitude>81.31754539665266</longitude>
+				<latitude>30.95921030022482</latitude>
+				<altitude>0</altitude>
+				<heading>-12.46780003272785</heading>
+				<tilt>58.08327663684042</tilt>
+				<range>785.0278041132336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#sn_noicon8</styleUrl>
+			<Point>
+				<coordinates>81.31947791741337,30.95775142562843,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>曲古寺遗址</name>
+			<LookAt>
+				<longitude>81.26861287329413</longitude>
+				<latitude>31.03187960174472</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002088130293113299</heading>
+				<tilt>0</tilt>
+				<range>653.7272771113242</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-diamond15</styleUrl>
+			<Point>
+				<coordinates>81.26648834288037,31.03316853754857,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>止热寺</name>
+			<LookAt>
+				<longitude>81.32095604145971</longitude>
+				<latitude>31.10772696538308</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02551018145988159</heading>
+				<tilt>0</tilt>
+				<range>241.2229380176883</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-diamond15</styleUrl>
+			<Point>
+				<coordinates>81.32097537210063,31.10748915271748,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>神山检票口</name>
+			<LookAt>
+				<longitude>81.26936507818569</longitude>
+				<latitude>31.03059060797264</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001700391258025783</heading>
+				<tilt>0</tilt>
+				<range>298.326351588915</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_police2</styleUrl>
+			<Point>
+				<coordinates>81.26941587051039,31.03034401665039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>祖楚寺</name>
+			<styleUrl>#msn_red-diamond15</styleUrl>
+			<Point>
+				<coordinates>81.3621798010691,31.00224264249805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>神湖</name>
+			<styleUrl>#msn_water32</styleUrl>
+			<Point>
+				<coordinates>81.37092087422116,31.09276920239743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>01</name>
+			<open>1</open>
+			<styleUrl>#msn_campground0</styleUrl>
+			<Point>
+				<coordinates>81.33928333333333,30.98195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>02夺切冲旅馆</name>
+			<styleUrl>#msn_campground1</styleUrl>
+			<Point>
+				<coordinates>81.37394999999999,31.00811666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>03</name>
+			<open>1</open>
+			<styleUrl>#msn_campground8</styleUrl>
+			<Point>
+				<coordinates>81.37690000000001,31.02625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>04</name>
+			<styleUrl>#msn_campground9</styleUrl>
+			<Point>
+				<coordinates>81.3768,31.03425,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>05</name>
+			<styleUrl>#msn_campground5</styleUrl>
+			<Point>
+				<coordinates>81.38068333333334,31.06566666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>06</name>
+			<open>1</open>
+			<styleUrl>#msn_campground11</styleUrl>
+			<Point>
+				<coordinates>81.38655,31.07968333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>07</name>
+			<styleUrl>#msn_campground2</styleUrl>
+			<Point>
+				<coordinates>81.32640000000001,31.10068333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>08</name>
+			<open>1</open>
+			<styleUrl>#msn_campground4</styleUrl>
+			<Point>
+				<coordinates>81.32033333333334,31.10198333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>09</name>
+			<styleUrl>#msn_campground3</styleUrl>
+			<Point>
+				<coordinates>81.28715,31.08481666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>格萨尔王马尾瀑布</name>
+			<open>1</open>
+			<styleUrl>#msn_camera</styleUrl>
+			<Point>
+				<coordinates>81.28068333333333,31.05526666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>桥02</name>
+			<open>1</open>
+			<styleUrl>#msn_polygon60</styleUrl>
+			<Point>
+				<coordinates>81.26869267493412,31.03065899623822,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>桥01</name>
+			<open>1</open>
+			<styleUrl>#msn_polygon152</styleUrl>
+			<Point>
+				<coordinates>81.32715,31.10076666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>玛尼堆01</name>
+			<styleUrl>#msn_ylw-square</styleUrl>
+			<Point>
+				<coordinates>81.31693333333334,30.96096666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>玛尼堆02</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-square0</styleUrl>
+			<Point>
+				<coordinates>81.32388333333333,30.9638,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>玛尼堆经幡03</name>
+			<styleUrl>#msn_ylw-diamond</styleUrl>
+			<Point>
+				<coordinates>81.37733333333334,31.0173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>经幡04,5395m</name>
+			<styleUrl>#msn_ylw-diamond7</styleUrl>
+			<Point>
+				<coordinates>81.38151666666667,31.08356666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>玛尼石05</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-diamond5</styleUrl>
+			<Point>
+				<coordinates>81.37721666666667,31.0887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>经幡06</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-diamond10</styleUrl>
+			<Point>
+				<coordinates>81.37378333333334,31.09251666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>经幡07</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-diamond6</styleUrl>
+			<Point>
+				<coordinates>81.25838333333333,30.99368333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>经桶08</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-circle0</styleUrl>
+			<Point>
+				<coordinates>81.27886666666667,30.98,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>玛尼石墙09</name>
+			<styleUrl>#msn_ylw-square1</styleUrl>
+			<Point>
+				<coordinates>81.28248827904397,30.97940280402047,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>东边看见土拨鼠</name>
+			<styleUrl>#msn_camera2</styleUrl>
+			<Point>
+				<coordinates>81.35888333333334,30.99843333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>天葬台</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-stars030</styleUrl>
+			<Point>
+				<coordinates>81.34686666666667,31.0964,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>相片石</name>
+			<styleUrl>#msn_ylw-diamond0</styleUrl>
+			<Point>
+				<coordinates>81.36888333333333,31.0966,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>塔波其经幡</name>
+			<open>1</open>
+			<styleUrl>#msn_ylw-diamond4</styleUrl>
+			<Point>
+				<coordinates>81.26173333333334,31.01538333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓4925m</name>
+			<styleUrl>#msn_noicon03</styleUrl>
+			<Point>
+				<coordinates>81.37690000000001,31.02405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5079m</name>
+			<styleUrl>#msn_noicon5</styleUrl>
+			<Point>
+				<coordinates>81.37713333333333,31.0542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5181m</name>
+			<styleUrl>#msn_noicon30</styleUrl>
+			<Point>
+				<coordinates>81.38424999999999,31.07278333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5373m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon0001</styleUrl>
+			<Point>
+				<coordinates>81.3848,31.08291666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5415m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon34</styleUrl>
+			<Point>
+				<coordinates>81.38353333333333,31.0845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5426m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon12</styleUrl>
+			<Point>
+				<coordinates>81.38223333333333,31.08513333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓米日拉巴的足印石,5441m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon9</styleUrl>
+			<Point>
+				<coordinates>81.3818,31.08543333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5454m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon16</styleUrl>
+			<Point>
+				<coordinates>81.38086666666666,31.08636666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5456m</name>
+			<styleUrl>#msn_noicon8</styleUrl>
+			<Point>
+				<coordinates>81.35841666666667,31.10075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5502m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon72</styleUrl>
+			<Point>
+				<coordinates>81.37908333333333,31.08768333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5550m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon220</styleUrl>
+			<Point>
+				<coordinates>81.37585,31.0903,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5552m,横切冰川</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon17</styleUrl>
+			<Point>
+				<coordinates>81.37581666666667,31.09046666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5579m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon41</styleUrl>
+			<Point>
+				<coordinates>81.37478333333334,31.09196666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5600m</name>
+			<styleUrl>#msn_noicon23</styleUrl>
+			<Point>
+				<coordinates>81.37413333333333,31.09201666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5622m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon51</styleUrl>
+			<Point>
+				<coordinates>81.37056666666666,31.0941,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5633m</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon29</styleUrl>
+			<Point>
+				<coordinates>81.37016666666666,31.09423333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓5648m</name>
+			<styleUrl>#msn_noicon13</styleUrl>
+			<Point>
+				<coordinates>81.37048333333334,31.09468333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>卓玛拉山口,5656m</name>
+			<open>1</open>
+			<styleUrl>#msn_X00</styleUrl>
+			<Point>
+				<coordinates>81.37035,31.09508333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↓20km</name>
+			<open>1</open>
+			<styleUrl>#msn_noicon35</styleUrl>
+			<Point>
+				<coordinates>81.38598333333333,31.08285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>↑苯教转山路标</name>
+			<styleUrl>#msn_trail1</styleUrl>
+			<Point>
+				<coordinates>81.37768333333334,31.04115,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>普兰旅游售票</name>
+			<LookAt>
+				<longitude>81.28663576129995</longitude>
+				<latitude>30.95269114151227</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02549388897152236</heading>
+				<tilt>0</tilt>
+				<range>119.2077962131081</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_police4</styleUrl>
+			<Point>
+				<coordinates>81.28668873040368,30.95267379595824,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>冈仁波齐  6638</name>
+			<LookAt>
+				<longitude>81.3117501298585</longitude>
+				<latitude>31.06415219627461</latitude>
+				<altitude>0</altitude>
+				<heading>-13.4597392414424</heading>
+				<tilt>0</tilt>
+				<range>4932.754914707499</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_track</styleUrl>
+			<Point>
+				<coordinates>81.31287756196797,31.06759495207148,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
